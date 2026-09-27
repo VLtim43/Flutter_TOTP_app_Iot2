@@ -15,7 +15,9 @@ class App extends StatelessWidget {
           title: Text("Test"),
         ),
 
-        body: Container(color: Colors.greenAccent, child: Text("hello")),
+        body: Center(
+          child: Container(color: Colors.greenAccent, child: Text("hello")),
+        ),
       ),
     );
   }
